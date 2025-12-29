@@ -1,16 +1,13 @@
-# Solana Anchor Cursor AI rules
+# Solana Anchor Claude / Cursor AI rules
 
-🆕 Updated for Anchor 0.31.0
+🆕 Updated for Anchor 0.32.1
 
-Here's a Cursor AI rules file I'm using to create and edit my Solana Anchor projects.
+Here's a Claude / Cursor AI rules file I'm using to create and edit my Solana Anchor projects.
 
 ## How do I use these files?
 
-```bash
-mkdir -p .cursor/rules
-```
-
-Download this repo, and copy `.cursor/rules` into the folder you just created.
+Claude: clone this repo, and copy `CLAUDE.md` into your project
+Cursor: clone this repo, and copy `CLAUDE.md` into `.cursor/rules`
 
 ## How do I use Cursor AI to build a Solana Anchor program?
 
