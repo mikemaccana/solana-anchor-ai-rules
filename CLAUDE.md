@@ -20,9 +20,9 @@ If this project uses Arcium, Arcium is documented at https://docs.arcium.com/dev
 
 ## General coding guidelines
 
-- It's important not to decieve anyone reading this code. Deception includes variable names that do not match what the purpose of the variable is, comments that no longer describe the code, and temporary workarounds that aren't labelled as such using a comment.
+- It's important not to decieve anyone reading this code. Deception includes variable names that do not match what the purpose of the variable is, comments that no longer describe the code or are otherwise inaccurate, and temporary workarounds that aren't labelled as such using a comment.
 
-- Ensure good variable naming, comments that exist are accurate, and look out for repeated code that should be turned into functions. Rather than add comments to explain what things are, give them useful names.
+- Ensure good variable naming. Rather than add comments to explain what things are, give them useful names.
 
 Don't do this:
 
@@ -37,10 +37,16 @@ Do this instead:
 const foo = getFoo();
 ```
 
+Arrays should be plurals (`shoes`), the items within array should be the singular of the array plural (`shoes.forEach((shoe) => {...})`). Functions should be verby, like `calculateFoo` or `getBar`. 
+
+You can still add comments for additional context, just be careful to avoid comments that should be better names.
+
 Avoid abbreviations, and use full words, for example use `context` rather than `ctx`. Never use `e` for something thrown.
 
+- Look out for repeated code that should be turned into functions.
+
 - Avoid 'magic numbers'. Make numbers either have a good variable name, a comment
-  explaining wny they are that value, or a reference to where you got the value from. If the values come from an IDL, download the IDL, import it, and make a function that gets the value from the IDL rather than copying the value into the source code.
+  explaining wny they are that value, or a reference to the URL you got the value from. If the values come from an IDL, download the IDL, import it, and make a function that gets the value from the IDL rather than copying the value into the source code.
 
 - The code you are making is for production. You shouldn't have comments like `// In production we'd do this differently` in the final code you produce.
 
