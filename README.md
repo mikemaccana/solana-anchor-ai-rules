@@ -3,7 +3,7 @@
 A Claude Code skill for creating and editing Solana Anchor projects with best practices and conventions.
 
 > [!NOTE]
-> Looking for a Claude RULES file (`CLAUDE.md`) for Solana? You're in the right place. We've updated this repo to use the newer Claude Code skills format, which provides better integration and automatic application of guidelines.
+> Looking for a Claude RULES file (`CLAUDE.md`) for Solana? You're in the right place. We've updated this repo to use the newer Claude Code **skills** format, which provides better integration and automatic application of guidelines.
 
 ## What are Claude Skills?
 
