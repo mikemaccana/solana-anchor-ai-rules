@@ -21,6 +21,7 @@ Use these official documentation sources:
 - **Solana Kite**: https://solanakite.org
 - **Solana Kit**: https://solanakit.com
 - **Agave (Solana CLI)**: https://docs.anza.xyz/ (Anza makes the Solana CLI and Agave. Documentation made by 'Solana Labs' is outdated)
+- **Switchboard** (if used): https://docs.switchboard.xyz/docs-by-chain/solana-svm
 - **Arcium** (if used): https://docs.arcium.com/developers
 
 ## Library versions
