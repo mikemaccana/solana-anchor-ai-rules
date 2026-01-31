@@ -101,6 +101,10 @@ const FINALIZE_EVENT_DISCRIMINATOR = getEventDiscriminator(
 
 ## TypeScript Guidelines
 
+These guidelines apply to TypeScript unit tests, browser code, Switchboard functions, and any other places where TypeScript is used in the project.
+
+### General TypeScript
+
 Avoid using a `tsconfig.json` unless it's needed, as we use `tsx` to run most typescript and it doesn't usually need one. If you do need a `tsconfig.json`, state why at the top of the file, and you can use the most modern version of ECMAScript/JavaScript you want - up to say 2023.
 
 ### Async/await
