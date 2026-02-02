@@ -30,7 +30,7 @@ Use these official documentation sources:
 
 - Do not use any documentaton or tools from Project Serum, which collapsed many years ago.
 
-- Do not use yarn. Use npm. Yarn has no reason to exist and only adds unnecessary dependencies.
+- Do not use yarn. Use npm. Yarn has no reason to exist and only adds unnecessary dependencies. Replace Yarn with npm everywhere you see it.
 
 ## Library versions
 
