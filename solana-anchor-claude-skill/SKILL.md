@@ -192,6 +192,10 @@ try {
   - Use 'Token Extensions Program' or 'Token extensions' for the newer token program (not 'Token 2022' which is just a code name)
   - Use 'Classic Token Program' for the older token program
 
+- Onchain
+  - Use onchain and offchain, like online and offline
+  - Don't ever use 'on-chain' or 'off-chain'
+
 ### Anchor Version
 
 - Write all code like the latest stable Anchor (currently 0.32.1 but there may be a newer version by the time you read this)
