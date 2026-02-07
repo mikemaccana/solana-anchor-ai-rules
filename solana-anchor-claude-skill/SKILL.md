@@ -137,6 +137,24 @@ Favor `async`/`await` and `try/catch` over `.then()` or `.catch()` or using call
 
 `npx create-codama-clients`
 
+- Do not use the `bs58` npm package.
+
+Don't do this:
+
+```typescript
+import bs58 from "bs58";
+const signature = bs58.encode(signatureBytes);
+```
+
+Do this instead:
+
+```typescript
+import { getBase58Decoder } from "@solana/codecs";
+const signature = getBase58Decoder().decode(signatureBytes);
+```
+
+Yes, these difference packages have difference concepts of 'encode' and 'decode'.
+
 ### Unit Tests
 
 - Create unit tests in TS in the `tests` directory
