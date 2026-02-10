@@ -103,7 +103,7 @@ const FINALIZE_EVENT_DISCRIMINATOR = getEventDiscriminator(
 );
 ```
 
-- The code you are making is for production. You shouldn't have comments like `// In production we'd do this differently` in the final code you produce
+- The code you are making is for production. You shouldn't have comments like `// In production we'd do this differently` or `**Implementation incomplete** - Needs program config handling and proper PDA derivations` or `**WORK IN PROGRESS**` in the final code you produce, or functions that return placeholder data. Instead: do the fucking work.
 - Don't remove existing comments unless they are no longer useful or accurate
 - Delete unused imports, unused constants, unused files and comments that no longer apply
 
