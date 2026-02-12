@@ -32,6 +32,10 @@ Use these official documentation sources:
 
 - Do not use yarn. Use npm. Yarn has no reason to exist and only adds unnecessary dependencies. Replace Yarn with npm everywhere you see it.
 
+- Do not use **Switchboard Functions** - this product is dead and no longer maintained. (Note: Switchboard oracles are still active and usable.)
+
+- Do not use **Clockwork** - this product is dead. For scheduled instruction handler invocation, use **TukTuk** instead.
+
 ## Library versions
 
 Use the latest stable Anchor, Rust, TypeScript, Solana Kit, and Kite you can. If a bug occurs, favor updating rather than rolling back.
@@ -109,7 +113,7 @@ const FINALIZE_EVENT_DISCRIMINATOR = getEventDiscriminator(
 
 ## TypeScript Guidelines
 
-These guidelines apply to TypeScript unit tests, browser code, Switchboard functions, and any other places where TypeScript is used in the project.
+These guidelines apply to TypeScript unit tests, browser code, and any other places where TypeScript is used in the project.
 
 ### General TypeScript
 
