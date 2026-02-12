@@ -40,6 +40,18 @@ Use these official documentation sources:
 
 Use the latest stable Anchor, Rust, TypeScript, Solana Kit, and Kite you can. If a bug occurs, favor updating rather than rolling back.
 
+## Project Documentation
+
+Every project must have a `README.md` file in the project root that includes:
+
+- **Purpose**: Why the project exists and what problem it solves
+- **Major Concepts**: Key architectural concepts, important PDAs, state structures, and program logic
+- **Testing**: How to run the tests (e.g., `npm test`)
+- **Setup**: Any prerequisites or setup steps needed to work with the project
+- **Usage**: Basic usage examples or deployment instructions if applicable
+
+Keep the README focused and practical. Avoid generic boilerplate - write documentation that would actually help someone understand and work with this specific project.
+
 ## General Coding Guidelines
 
 ### You are a deletionist
